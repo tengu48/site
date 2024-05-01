@@ -9,12 +9,18 @@
             font-family: 'Courier New', Courier, monospace;
         }
         h1 {
-            color: #FF2FC2;
+            <!-- color: #FF2FC2; -->
 			text-align: center;
+			animation: colorchange 1s infinite;
         }
         p {
             color: #00FFA3;
 			text-align: center;
+        }
+		@keyframes colorchange {
+            0% {color: #FF2FC2;}
+            50% {color: #00FFA3;}
+            100% {color: #FF2FC2;}
         }
     </style>
 </head>
